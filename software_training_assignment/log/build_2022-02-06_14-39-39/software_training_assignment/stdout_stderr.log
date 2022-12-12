@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment
+[35m[1mScanning dependencies of target client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/clear_turtles_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/lib/client
+-- Set runtime path of "/home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/lib/client" to ""
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/ament_index/resource_index/package_run_dependencies/software_training_assignment
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/ament_index/resource_index/parent_prefix_path/software_training_assignment
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/environment/ament_prefix_path.sh
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/environment/ament_prefix_path.dsv
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/environment/path.sh
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/environment/path.dsv
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/local_setup.bash
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/local_setup.sh
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/local_setup.zsh
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/local_setup.dsv
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/package.dsv
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/ament_index/resource_index/packages/software_training_assignment
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/cmake/software_training_assignmentConfig.cmake
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/cmake/software_training_assignmentConfig-version.cmake
+-- Installing: /home/gbekeadesiyun/software_training/src/software_training_assignment/install/software_training_assignment/share/software_training_assignment/package.xml

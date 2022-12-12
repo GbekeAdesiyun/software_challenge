@@ -1,0 +1,11 @@
+CMake Warning (dev) at CMakeLists.txt:32:
+  Syntax Warning in cmake code at column 106
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:35 (install):
+  install TARGETS given unknown argument "DESITNATION".
+
+
+make: *** [Makefile:216: cmake_check_build_system] Error 1

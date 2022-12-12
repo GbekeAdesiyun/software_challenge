@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.001993] (software_training_assignment) JobQueued: {'identifier': 'software_training_assignment', 'dependencies': OrderedDict()}
+[0.002045] (software_training_assignment) JobStarted: {'identifier': 'software_training_assignment'}
+[0.033677] (software_training_assignment) JobProgress: {'identifier': 'software_training_assignment', 'progress': 'cmake'}
+[0.041867] (software_training_assignment) JobProgress: {'identifier': 'software_training_assignment', 'progress': 'build'}
+[0.042718] (software_training_assignment) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment', '--', '-j1', '-l1'], 'cwd': '/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gbekeadesiyun'), ('SSH_AGENT_PID', '1369'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gbekeadesiyun'), ('OLDPWD', '/home/gbekeadesiyun/software_training/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/gbekeadesiyun/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gbekeadesiyun'), ('JOURNAL_STREAM', '8:33598'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gbekeadesiyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gbekeadesiyun-VirtualBox:@/tmp/.ICE-unix/1417,unix/gbekeadesiyun-VirtualBox:/tmp/.ICE-unix/1417'), ('INVOCATION_ID', '0a0972a4ca7643e49f910716bc1f2685'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72e96d49_7f87_4bad_9bf4_257a74b35fc7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099151] (-) TimerEvent: {}
+[0.142377] (software_training_assignment) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target circular_publisher\x1b[0m\n'}
+[0.199252] (-) TimerEvent: {}
+[0.236224] (software_training_assignment) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/circular_publisher.dir/src/circular_move_publisher.cpp.o\x1b[0m\n'}
+[0.299434] (-) TimerEvent: {}
+[0.399732] (-) TimerEvent: {}
+[0.500217] (-) TimerEvent: {}
+[0.600620] (-) TimerEvent: {}
+[0.701006] (-) TimerEvent: {}
+[0.801408] (-) TimerEvent: {}
+[0.901795] (-) TimerEvent: {}
+[1.011084] (-) TimerEvent: {}
+[1.111518] (-) TimerEvent: {}
+[1.211908] (-) TimerEvent: {}
+[1.312376] (-) TimerEvent: {}
+[1.415072] (-) TimerEvent: {}
+[1.518500] (-) TimerEvent: {}
+[1.618976] (-) TimerEvent: {}
+[1.719452] (-) TimerEvent: {}
+[1.820266] (-) TimerEvent: {}
+[1.920800] (-) TimerEvent: {}
+[2.021217] (-) TimerEvent: {}
+[2.121579] (-) TimerEvent: {}
+[2.226777] (-) TimerEvent: {}
+[2.294557] (software_training_assignment) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[2.294867] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSOFTWARE_TRAINING_ASSIGNMENT_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.294978] (software_training_assignment) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KSOFTWARE_TRAINING_ASSIGNMENT_PUBLIC\x1b[m\x1b[K\n'}
+[2.295137] (software_training_assignment) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.301542] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:37:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Kmy_queue\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.301735] (software_training_assignment) StderrLine: {'line': b'   37 | static constexpr unsigned int \x1b[01;31m\x1b[Kmy_queue\x1b[m\x1b[K[10];\n'}
+[2.301833] (software_training_assignment) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.301982] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:44:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.302084] (software_training_assignment) StderrLine: {'line': b'   44 |         static constexpr float \x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[2.302176] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.302417] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:45:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.302557] (software_training_assignment) StderrLine: {'line': b'   45 |         static constexpr float \x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[2.302713] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.302842] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:46:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.302942] (software_training_assignment) StderrLine: {'line': b'   46 |         static constexpr float \x1b[01;31m\x1b[Kz\x1b[m\x1b[K;\n'}
+[2.303030] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.303170] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:53:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.303269] (software_training_assignment) StderrLine: {'line': b'   53 |         static constexpr float \x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[2.303520] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.303648] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:54:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.303745] (software_training_assignment) StderrLine: {'line': b'   54 |         static constexpr float \x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[2.303833] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.303952] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/include/software_training_assignment/circular_move_publisher.hpp:55:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99 static data member \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 must have an initializer\n'}
+[2.304050] (software_training_assignment) StderrLine: {'line': b'   55 |         static constexpr float \x1b[01;31m\x1b[Kz\x1b[m\x1b[K;\n'}
+[2.304140] (software_training_assignment) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.306478] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:8:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher_hpp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.306684] (software_training_assignment) StderrLine: {'line': b'    8 | \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::Circular_move_publisher(\n'}
+[2.306802] (software_training_assignment) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.307008] (software_training_assignment) StderrLine: {'line': b'      | \x1b[32m\x1b[KCircular_move_publisher_hpp\x1b[m\x1b[K\n'}
+[2.307131] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:21:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.307240] (software_training_assignment) StderrLine: {'line': b'   21 | void \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::timer_callback()\n'}
+[2.307330] (software_training_assignment) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.315126] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid composition::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.315563] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.315671] (software_training_assignment) StderrLine: {'line': b'   25 |     message->linear.x = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.linear.x;\n'}
+[2.315766] (software_training_assignment) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.315919] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:26:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.316021] (software_training_assignment) StderrLine: {'line': b'   26 |     message->linear.y = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.linear.y;\n'}
+[2.316111] (software_training_assignment) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.316900] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:27:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.317013] (software_training_assignment) StderrLine: {'line': b'   27 |     message->linear.z = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.linear.z;\n'}
+[2.317125] (software_training_assignment) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.317350] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:29:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.317450] (software_training_assignment) StderrLine: {'line': b'   29 |     message->angular.x = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.angular.x;\n'}
+[2.317541] (software_training_assignment) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.317682] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:30:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.317964] (software_training_assignment) StderrLine: {'line': b'   30 |     message->angular.y = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.angular.y;\n'}
+[2.318088] (software_training_assignment) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.320966] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:31:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.321211] (software_training_assignment) StderrLine: {'line': b'   31 |     message->angular.z = \x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K::coordinates.angular.z;\n'}
+[2.321314] (software_training_assignment) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.321441] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.321539] (software_training_assignment) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->publisher->publish(std::move(message));\n'}
+[2.321628] (software_training_assignment) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.326964] (-) TimerEvent: {}
+[2.335139] (software_training_assignment) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[2.335340] (software_training_assignment) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18\x1b[m\x1b[K,\n'}
+[2.335443] (software_training_assignment) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:38\x1b[m\x1b[K:\n'}
+[2.335553] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.335657] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:41:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcomposition\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher_hpp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.335839] (software_training_assignment) StderrLine: {'line': b'   41 | RCLCPP_COMPONENTS_REGISTER_NODE(composition::\x1b[01;31m\x1b[KCircular_move_publisher\x1b[m\x1b[K)\n'}
+[2.335934] (software_training_assignment) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.336071] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:41:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcomposition\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KCircular_move_publisher_hpp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.336218] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:41:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.336330] (software_training_assignment) StderrLine: {'line': b'   41 | \x1b[01;31m\x1b[KRCLCPP_COMPONENTS_REGISTER_NODE\x1b[m\x1b[K(composition::Circular_move_publisher)\n'}
+[2.336425] (software_training_assignment) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.336993] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:50:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.337133] (software_training_assignment) StderrLine: {'line': b'   50 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[2.337231] (software_training_assignment) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.427060] (-) TimerEvent: {}
+[2.527506] (-) TimerEvent: {}
+[2.627912] (-) TimerEvent: {}
+[2.728395] (-) TimerEvent: {}
+[2.772802] (software_training_assignment) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[2.773004] (software_training_assignment) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[2.773107] (software_training_assignment) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18\x1b[m\x1b[K,\n'}
+[2.773204] (software_training_assignment) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:38\x1b[m\x1b[K:\n'}
+[2.773301] (software_training_assignment) StderrLine: {'line': b'/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.773510] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[2.773606] (software_training_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp_components::NodeFactory*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[2.773698] (software_training_assignment) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[2.773786] (software_training_assignment) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.773873] (software_training_assignment) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.773961] (software_training_assignment) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[Kint*\x1b[m\x1b[K\n'}
+[2.828501] (-) TimerEvent: {}
+[2.858687] (software_training_assignment) StderrLine: {'line': b'make[2]: *** [CMakeFiles/circular_publisher.dir/build.make:63: CMakeFiles/circular_publisher.dir/src/circular_move_publisher.cpp.o] Error 1\n'}
+[2.862079] (software_training_assignment) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/circular_publisher.dir/all] Error 2\n'}
+[2.862358] (software_training_assignment) StderrLine: {'line': b'make: *** [Makefile:95: all] Error 2\n'}
+[2.864484] (software_training_assignment) CommandEnded: {'returncode': 2}
+[2.928727] (-) TimerEvent: {}
+[2.978596] (software_training_assignment) JobEnded: {'identifier': 'software_training_assignment', 'rc': 2}
+[2.982853] (-) EventReactorShutdown: {}

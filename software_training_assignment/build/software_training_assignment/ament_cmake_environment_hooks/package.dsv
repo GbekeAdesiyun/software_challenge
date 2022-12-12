@@ -1,0 +1,4 @@
+source;share/software_training_assignment/local_setup.bash
+source;share/software_training_assignment/local_setup.dsv
+source;share/software_training_assignment/local_setup.sh
+source;share/software_training_assignment/local_setup.zsh

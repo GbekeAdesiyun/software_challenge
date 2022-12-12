@@ -1,0 +1,27 @@
+[0.044s] Invoking command in '/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment -- -j1 -l1
+[0.152s] CMake Warning (dev) at CMakeLists.txt:32:
+[0.153s]   Syntax Warning in cmake code at column 106
+[0.153s] 
+[0.153s]   Argument not separated from preceding token by whitespace.
+[0.153s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.153s] 
+[0.170s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.220s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.439s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.080s] -- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.155s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.201s] CMake Error at CMakeLists.txt:35 (install):
+[1.201s]   install TARGETS given unknown argument "DESITNATION".
+[1.201s] 
+[1.201s] 
+[1.312s] -- Configuring incomplete, errors occurred!
+[1.312s] See also "/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment/CMakeFiles/CMakeOutput.log".
+[1.312s] See also "/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment/CMakeFiles/CMakeError.log".
+[1.322s] make: *** [Makefile:216: cmake_check_build_system] Error 1
+[1.328s] Invoked command in '/home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment -- -j1 -l1

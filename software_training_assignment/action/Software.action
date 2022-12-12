@@ -1,0 +1,11 @@
+# Request message /moving_turtle/cmd_vel - Goal
+geometry_msgs/Vector3 linear_pos
+geometry_msgs/Vector3 angular_pos
+---
+#Result message - time it took to reach the goal
+uint64  duration
+---
+#Feedback message /moving_turtle/pose - distance to the goal
+float32 x_pos
+float32 y_pos
+float32 theta_pos

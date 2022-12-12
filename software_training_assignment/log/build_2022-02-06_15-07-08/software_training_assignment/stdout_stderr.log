@@ -1,0 +1,29 @@
+CMake Warning (dev) at CMakeLists.txt:29:
+  Syntax Warning in cmake code at column 106
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gbekeadesiyun/software_training/src/software_training_assignment/build/software_training_assignment
+[35m[1mScanning dependencies of target circular_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/circular_publisher.dir/src/circular_move_publisher.cpp.o[0m
+[01m[K/home/gbekeadesiyun/software_training/src/software_training_assignment/src/circular_move_publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksoftware_training_assignment/circular_move_publisher.hpp: No such file or directory
+    1 | #include [01;31m[K<software_training_assignment/circular_move_publisher.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/circular_publisher.dir/build.make:63: CMakeFiles/circular_publisher.dir/src/circular_move_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/circular_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
